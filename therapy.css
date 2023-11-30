@@ -13,6 +13,27 @@ nav ul{
     justify-content: center;
     list-style-type: none;   
 }
+.home{
+    height: 40px;
+    background-color: #7D7B7D;
+    display: flex;
+    align-items: center;
+}
+.home ul{
+    display: flex;
+    list-style-type: none;
+}
+.home ul li a{
+    text-decoration: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 15px;
+    color: black;
+    border: 2px solid black;
+    background-color: aliceblue;
+    
+
+}
 .container{
     background-color:#B7B4B6;
     color: black;
@@ -72,13 +93,5 @@ label{
 .common1{
     margin-top: 30px;
     display: flex;
-    justify-content: center;
-}
-/* .main{
-    margin-top: 100px;
-    margin-bottom: 100px;
-} */
-/* .main .bold{
-    font-size: 20px;
-} */
+    justify-content: center;}
 
